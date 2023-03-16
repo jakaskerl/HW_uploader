@@ -1,6 +1,9 @@
 # HTML to PDF tool for Luxonis hardware page
 
 ## Scripts
+Install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) before first run.
+
+
 Execute scripts using Python3.10+.
 **Run retrieve_devices.py first!**
 
