@@ -4,7 +4,11 @@ from scrapy_splash import SplashRequest
 import scrapy
 from bs4 import BeautifulSoup
 import json
+import os
 
+# create pfds folder if it does not yet exist
+if not os.path.exists('pdfs'):
+   os.makedirs('pdfs')
 
 class MySpider(scrapy.Spider):
     name = "myspider"
